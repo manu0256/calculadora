@@ -1,0 +1,25 @@
+<html>
+    <script>
+        function calculo(operação, n1 ,n2) {
+        var resultado;
+            if (operação ==="SOMA") {
+            resultado = n1 + n2 ;
+        }   else if (operação === 'SUBTRAÇÃO'){
+            resultado = n1 - n2 ;
+            }else if (operação === 'MULTIPLICAÇÃO'){
+            resultado = n1 * n2 ;
+            }else if (operação === 'DVISÃO') {
+            resultado = n1 / n2 ;
+            }else if(operação === 'RESTO'){
+            resultado = n1 % n2 ;
+            }else if (operação === 'PORCENTAGEM') {
+            resultado = n1 *n2 /100 ;
+            }else{
+                console.log('opeação inválida');
+            }
+                 
+        return resultado ;
+        }
+        
+    </script>
+</html>
